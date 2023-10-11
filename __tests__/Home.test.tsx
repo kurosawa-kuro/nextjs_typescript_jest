@@ -23,7 +23,7 @@ describe('Home', () => {
         render(<Home />) // ARRANGE 
 
         const myElem = screen.getByRole('heading', {
-            name: 'Learn'
+            name: 'Learn ->'
         }) // ACT 
 
         expect(myElem).toBeInTheDocument() // ASSERT
